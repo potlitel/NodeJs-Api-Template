@@ -11,6 +11,7 @@ const app = express();
 require("dotenv").config();
 require("./startup/cors")(app);
 require("./startup/routes")(app);
+require("./startup/swagger-ui-express")(app);
 require("./startup/db")();
 app.use(morgan('combined', { stream: loggerWinston.stream }));
 app.use(helmet());
