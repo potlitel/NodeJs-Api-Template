@@ -1,1 +1,1 @@
-bcryptjs dotenv express jsonwebtoken mongoose mongo-seeding mongo-seeding-cli nodemon cors helmet joi mongoose-paginate morgan supertest winston app-root-path winston-daily-rotate-file
+bcryptjs dotenv express jsonwebtoken mongoose mongo-seeding mongo-seeding-cli nodemon cors helmet joi mongoose-paginate morgan supertest winston app-root-path winston-daily-rotate-file swagger-ui-express
