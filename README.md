@@ -80,3 +80,6 @@ npm run dev
 + Documenting a Node.js REST API using Swagger <https://www.section.io/engineering-education/documenting-node-js-rest-api-using-swagger/>
 + Simple Node.js REST API. <https://github.com/mwangiKibui/node.js-simple-api>
 + How to implement and use Swagger in Node.js <https://javascript.plainenglish.io/how-to-implement-and-use-swagger-in-nodejs-d0b95e765245>
++ SuperTest <https://github.com/visionmedia/supertest>
++ TESTEANDO UN API REST NODE.JS CON MOCHA <http://xurxodev.com/testeando-un-api-rest-con-mocha/>
++ SuperTest <https://github.com/visionmedia/supertest>
