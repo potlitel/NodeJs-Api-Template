@@ -73,3 +73,13 @@ npm run test
 ```
 npm run dev
 ```
+
+## Links
+
++  Backend of Vidly, an imaginary video rental app <https://github.com/mosh-hamedani/vidly-api-node>
++ Documenting a Node.js REST API using Swagger <https://www.section.io/engineering-education/documenting-node-js-rest-api-using-swagger/>
++ Simple Node.js REST API. <https://github.com/mwangiKibui/node.js-simple-api>
++ How to implement and use Swagger in Node.js <https://javascript.plainenglish.io/how-to-implement-and-use-swagger-in-nodejs-d0b95e765245>
++ StackEdit <https://stackedit.io/>
++ Classeur <http://classeur.io/>
++ HackMD <https://hackmd.io/>
