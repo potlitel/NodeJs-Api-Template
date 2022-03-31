@@ -4,6 +4,7 @@
 
 Create .env file and add a 'DB_URI' property. Navigate to /data directory and run 'DEBUG=mongo-seeding node index.js'
 
+npm install -g mongo-seeding-cli
 
 PS G:\Trabajo\GitProjects\Real-Projects\NodeJsApiTemplate> seed --drop-database --replace-id --set-timestamps --db-name jwt-project ./data
   mongo-seeding Reading collections from G:\Trabajo\GitProjects\Real-Projects\NodeJsApiTemplate\data... +0ms

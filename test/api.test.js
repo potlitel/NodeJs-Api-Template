@@ -1,5 +1,7 @@
-const { assert } = require('console');
 const request = require('supertest');
+const {assert} = require('chai');
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
 const url = process.env.URL_Testing || "http://localhost:4001";
 //const app = require('../app');
 
@@ -43,7 +45,7 @@ describe('the homepage', function() {
         });
 });
 
-describe('the homepage 1', function() {
+/*describe('the homepage 1', function() {
         it('returns the correct content', async () => {
             request(url)
                 .get('/ss')
@@ -57,9 +59,9 @@ describe('the homepage 1', function() {
                 });
             
         });
-});
+});*/
 
-describe('GET /', () => {
+/*describe('GET /', () => {
   it('responds with a html message', async () => {
     const response = await request(url)
       request(url)
@@ -67,7 +69,37 @@ describe('GET /', () => {
       .expect('Content-Type', /html/)
       .expect(200)
           .expect((response) => {
-              assert.once(response.body.should('Alain'))
+              assert.equal(response.body, "Alain");
           })
   });
+});*/
+
+const parseTextFromHTML = (htmlAsString, selector) => {
+    const dom = new JSDOM(htmlAsString);
+    const selectedElement = dom.window.document.querySelector(selector);
+    if (selectedElement !== null) {
+      return selectedElement.textContent;
+    } else {
+      throw new Error(`No element with selector ${selector} found in HTML string`);
+    }
+};
+
+describe('the welcome api page returns the correct content', () => {
+    it('the #welcome element contains the page body text', async () => {
+        const divText = 'Welcome to API - HomePage 🙌👋🌎⭐️👏☀️🚀✨';
+        const response = await request(url).
+        get('/').
+        send();
+        assert.include(parseTextFromHTML(response.text, '#welcome'), divText);
+    });
 });
+  
+describe('the homepage body', () => {
+    it('the #page-title element contains the page title', async () => {
+        const pageText = 'Welcome to API - HomePage 🙌👋🌎⭐️👏☀️🚀✨';
+        const response = await request(url).
+        get('/').
+        send();
+        assert.include(parseTextFromHTML(response.body, '#page-body'), pageText);
+    });
+  });  

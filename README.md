@@ -38,6 +38,12 @@
   * Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
 * [dotenv](https://www.npmjs.com/package/dotenv)
   * Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`
+* [assert](https://www.npmjs.com/package/assert)
+  * The assert module from Node.js, for the browser.
+* [chai](https://www.npmjs.com/package/chai)
+  * Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+* [jsdom](https://www.npmjs.com/package/jsdom)
+  * jsdom is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. In general, the goal of the project is to emulate enough of a subset of a web browser to be useful for testing and scraping real-world web applications.
 
 ##### Development utilities:
 
@@ -88,3 +94,7 @@ npm run dev
 + Express 4 middleware when route is not found (finalhandler not called): how to check for it? <https://stackoverflow.com/questions/38681318/express-4-middleware-when-route-is-not-found-finalhandler-not-called-how-to-c>
 + node js route not found <https://stackoverflow.com/questions/28566487/node-js-route-not-found>
 + Express.js route not found <https://stackoverflow.com/questions/48954699/express-js-route-not-found>
++ How to usetextfunctioninResponse <https://www.tabnine.com/code/javascript/functions/supertest/Response/text>
++ Minimal test example for supertest <https://www.thiscodeworks.com/minimal-test-example-for-supertest-api-testing-nodejs-supertest/61e18883ddff800015669cba>
++ Server Testing Stack with Chai, jsdom, and SuperTest <https://codewithhasan.medium.com/server-testing-stack-with-chai-jsdom-and-supertest-1dc0213786ef>
++ Supercharge your nodejs testing using supertest <https://mistryakshar54.medium.com/supercharge-your-nodejs-testing-using-supertest-ecaa90497e2f>
