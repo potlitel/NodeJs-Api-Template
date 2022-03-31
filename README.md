@@ -82,4 +82,8 @@ npm run dev
 + How to implement and use Swagger in Node.js <https://javascript.plainenglish.io/how-to-implement-and-use-swagger-in-nodejs-d0b95e765245>
 + SuperTest <https://github.com/visionmedia/supertest>
 + TESTEANDO UN API REST NODE.JS CON MOCHA <http://xurxodev.com/testeando-un-api-rest-con-mocha/>
-+ SuperTest <https://github.com/visionmedia/supertest>
++ Writing Test with Supertest and Mocha for Expressjs Routes <https://medium.com/@ehtemam/writing-test-with-supertest-and-mocha-for-expressjs-routes-555d2910d2c2>
++ Dead-Simple API Tests With SuperTest, Mocha, and Chai <https://dev-tester.com/dead-simple-api-tests-with-supertest-mocha-and-chai/>
++ Express 4 middleware when route is not found (finalhandler not called): how to check for it? <https://stackoverflow.com/questions/38681318/express-4-middleware-when-route-is-not-found-finalhandler-not-called-how-to-c>
++ node js route not found <https://stackoverflow.com/questions/28566487/node-js-route-not-found>
++ Express.js route not found <https://stackoverflow.com/questions/48954699/express-js-route-not-found>
